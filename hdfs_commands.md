@@ -1,7 +1,9 @@
 # In hdfs file system / is the root
 
 # Command to check the files inside root hdfs directory
+'''
 hadoop fs -ls /
+'''
 
 # Command to create directory in hdfs
 hadoop fs -mkdir /input_data
