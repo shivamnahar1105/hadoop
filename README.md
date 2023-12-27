@@ -6,11 +6,12 @@
 
 Q1. What is a file system?
 - used to read, write from and to Hard disk Ex NTFS, EXT, HDFS, S3 ....
+- It is nothing but a layer.
 - NTFS - New Technology file system (windows), EXT - EXTENSIBLE file system (Linux), Mac FS (Macbook)
 
 Q2. What is block ? 
 - Big files into smal chunk.
-- Block size: 16kb (NTFS), 512kb (Linux)
+- Block size: 16kb (NTFS), 512kb (Linux), 128MB default (HDFS) -- 3 replicas or we can say 2copies & 1 actual 
 
 Q3. Client (send request) & server (recive request).
 
@@ -28,3 +29,6 @@ Q6. Daemon Process - Background Process.
 Q7. Cluster & Node ? 
 - Node: Individual Physical or Virtual machine.
 - Cluster Node:  Group of node is a cluster.
+
+Q8. HDFS (Hadoop Distributed File Systems) 
+- Suitable to use on top of Linux. 
