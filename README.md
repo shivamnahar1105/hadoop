@@ -10,8 +10,9 @@ Q1. What is a file system?
 - NTFS - New Technology file system (windows), EXT - EXTENSIBLE file system (Linux), Mac FS (Macbook)
 
 Q2. What is block ? 
-- Big files into smal chunk.
-- Block size: 16kb (NTFS), 512kb (Linux), 128MB default (HDFS) -- 3 replicas or we can say 2copies & 1 actual 
+- Big files into smal chunk. They are stored in Slave node.
+- Block size: 16kb (NTFS), 512kb (Linux), 128MB default (HDFS) -- 3 replicas or we can say 2copies & 1 actual
+- Metadata gets stored in ext of Master node. Never on HDFS.
 
 Q3. Client (send request) & server (recive request).
 
@@ -22,6 +23,7 @@ Q4. Types of file system ?
 
 Q5. Types of Distributed systems ? 
 - Master-Slave: Master will communicate with slave and vice-versa. There is no communication between the salves. Ex: Hadoop, Spark
+  Master communicates to slave with the help of client API. After very 3 sec Slave commmunicate to Master this is known as Heartbeat, which tells us whether the slave is working or not.
   Cons: Single point of communication/ Failure. We never connect directly to slave node. We usually use Edge node to connect to slave node.
 - Peer-to-Peer: There is no M-S concept. Every node communicates with each other. Ex: Cassandra
 
@@ -32,4 +34,4 @@ Q7. Cluster & Node ?
 - Cluster Node:  Group of node is a cluster.
 
 Q8. HDFS (Hadoop Distributed File Systems) 
-- Suitable to use on top of Linux. 
+- Suitable to use on top of Linux.
