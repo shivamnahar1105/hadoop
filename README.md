@@ -18,13 +18,14 @@ Q3. Client (send request) & server (recive request).
 Q4. Types of file system ?
 - Standalone FS - NTFS, EXT (data gets stored in a single block)
 - Distributed FS - HDFS, S3 (data gets stored in a multiple block)
+- to install any distributed file system, you need some standalone FS before on the top of that only we can install Distributd FS.
 
 Q5. Types of Distributed systems ? 
 - Master-Slave: Master will communicate with slave and vice-versa. There is no communication between the salves. Ex: Hadoop, Spark
-  Cons: Single point of communication/ Failure. 
+  Cons: Single point of communication/ Failure. We never connect directly to slave node. We usually use Edge node to connect to slave node.
 - Peer-to-Peer: There is no M-S concept. Every node communicates with each other. Ex: Cassandra
 
-Q6. Daemon Process - Background Process.
+Q6. Daemon Process - Background Process.unique name for every daemon process.
 
 Q7. Cluster & Node ? 
 - Node: Individual Physical or Virtual machine.
