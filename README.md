@@ -39,4 +39,5 @@ Q8. HDFS (Hadoop Distributed File Systems)
 Q9. Hadoop Vesion 2x : 
 - High Availability comes from this version.
 - JP1:  Master Node | JP2:  Data Node | JP3:  Secondary Node | JP4:  Resource Manager | JP5:  Node Manager
-- JP4 & JP5 are daemon process. JP - Java process. 
+- JP4 & JP5 are daemon process. JP - Java process.
+- Zookeeper is a cluster works on leader and follower. It decides which node is active node.
