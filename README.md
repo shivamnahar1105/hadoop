@@ -43,3 +43,8 @@ Q9. Hadoop Vesion 2x :
 - Zookeeper is a cluster works on leader and follower. It decides which node is active node.
 
 Q10. Abstraction of Map Reduce : Hive, Pig, Sqoop, Oozy.
+
+11.  - Processing: Hive, Pig, Map Reduce
+     - Storage: Hbase, HDFS
+     - Data Pipelines: Flume, Sqoop
+     - Data Science: Mahoot
