@@ -41,3 +41,5 @@ Q9. Hadoop Vesion 2x :
 - JP1:  Master Node | JP2:  Data Node | JP3:  Secondary Node | JP4:  Resource Manager | JP5:  Node Manager
 - JP4 & JP5 are daemon process. JP - Java process.
 - Zookeeper is a cluster works on leader and follower. It decides which node is active node.
+
+Q10. Abstraction of Map Reduce : Hive, Pig, Sqoop, Oozy.
