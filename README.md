@@ -22,3 +22,9 @@ Q5. Types of Distributed systems ?
 - Master-Slave: Master will communicate with slave and vice-versa. There is no communication between the salves. Ex: Hadoop, Spark
   Cons: Single point of communication/ Failure. 
 - Peer-to-Peer: There is no M-S concept. Every node communicates with each other. Ex: Cassandra
+
+Q6. Daemon Process - Background Process.
+
+Q7. Cluster & Node ? 
+- Node: Individual Physical or Virtual machine.
+- Cluster Node:  Group of node is a cluster.
